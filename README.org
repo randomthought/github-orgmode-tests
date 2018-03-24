@@ -1,5 +1,10 @@
 #+TAGS: { FAILS(f) PARTLY(p) WORKS(w) }
 #+MACRO: kbd @@html:<kbd>@@$1@@html:</kbd>@@
+#+MACRO: color @@html:<span style="color: $1">$2</span>@@@@latex:\textcolor{$1}{$2}@@@@odt:<text:span text:style-name="$1">$2</text:span>@@
+
+{{{color(red, This information is important.)}}} {{{color(#E0E0E0, This other isn’t.)}}}
+
+
 
 *Note:* a complete list of these features including keyboard
   shortcuts, links, and descriptions is available on
