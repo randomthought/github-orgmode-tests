@@ -1,4 +1,5 @@
 #+TAGS: { FAILS(f) PARTLY(p) WORKS(w) }
+#+MACRO: kbd @@html:<kbd>@@$1@@html:</kbd>@@
 
 *Note:* a complete list of these features including keyboard
   shortcuts, links, and descriptions is available on
@@ -8,6 +9,7 @@ This page demonstrates Org-mode features that are (or are not)
 supported by github which is using an (old) version of [[https://github.com/bdewey/org-ruby][org-ruby]].
 
 #+HTML: <kbd>Win</kbd>+<kbd>.</kbd>
+{{{kbd(Win)}}}
 
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
