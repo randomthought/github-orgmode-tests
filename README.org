@@ -13,7 +13,7 @@ supported by github which is using an (old) version of [[https://github.com/bdew
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
 | #+HTML: <kbd>Win</kbd>+<kbd>.</kbd> |                  | <2013-02-26 Tue> |
-| comment lines                       |                  | <2017-09-17 Sun> |
+| @@html:<b>@@bold text@@html:</b>@@  |                  | <2017-09-17 Sun> |
 | multi line comment block            |                  | <2017-09-17 Sun> |
 | simple lists                        |                  | <2013-02-26 Tue> |
 | lists with checkboxes               | <2014-04-13 Sun> |                  |
