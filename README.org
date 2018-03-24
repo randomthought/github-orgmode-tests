@@ -7,6 +7,8 @@
 This page demonstrates Org-mode features that are (or are not)
 supported by github which is using an (old) version of [[https://github.com/bdewey/org-ruby][org-ruby]].
 
+#+HTML: <kbd>Win</kbd>+<kbd>.</kbd>
+
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
 | #+HTML: <kbd>Win</kbd>+<kbd>.</kbd> |                  | <2013-02-26 Tue> |
