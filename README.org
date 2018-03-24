@@ -1,6 +1,5 @@
 #+TAGS: { FAILS(f) PARTLY(p) WORKS(w) }
-#+MACRO: kbd @@html:<kbd>@@$1@@html:</kbd>@@
-#+MACRO: color @@html:<span style="color: $1">$2</span>@@@@latex:\textcolor{$1}{$2}@@@@odt:<text:span text:style-name="$1">$2</text:span>@@
+#+MACRO: kbd @@html:<kbd>@@$1@@html:</kdb>@@
 
 {{{color(red, This information is important.)}}} {{{color(#E0E0E0, This other isn’t.)}}}
 
@@ -13,8 +12,7 @@
 This page demonstrates Org-mode features that are (or are not)
 supported by github which is using an (old) version of [[https://github.com/bdewey/org-ruby][org-ruby]].
 
-#+HTML: <kbd>Win</kbd>+<kbd>.</kbd>
-{{{kbd(Win)}}}
+Use {{{kbd(C-c a a)}}} to launch the agenda.
 
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
