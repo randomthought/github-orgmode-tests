@@ -8,12 +8,12 @@ This page demonstrates Org-mode features that are (or are not)
 supported by github which is using an (old) version of [[https://github.com/bdewey/org-ruby][org-ruby]].
 
 #+HTML: <kbd>Win</kbd>+<kbd>.</kbd>
-@@html:<b>@@bold text@@html:</b>@@
+src_html{<kbd>Win</kbd>+<kbd>.</kbd>}
 
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
 | #+HTML: <kbd>Win</kbd>+<kbd>.</kbd> |                  | <2013-02-26 Tue> |
-| @@html:<kbd>Win</kbd>@@             |                  | <2017-09-17 Sun> |
+| src_html{<kbd>Win</kbd>+<kbd>.</kbd>}             |                  | <2017-09-17 Sun> |
 | multi line comment block            |                  | <2017-09-17 Sun> |
 | simple lists                        |                  | <2013-02-26 Tue> |
 | lists with checkboxes               | <2014-04-13 Sun> |                  |
