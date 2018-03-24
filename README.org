@@ -9,7 +9,7 @@ supported by github which is using an (old) version of [[https://github.com/bdew
 
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
-| simple text formatting              |                  | <2013-02-26 Tue> |
+| #+HTML: <kbd>Win</kbd>+<kbd>.</kbd> |                  | <2013-02-26 Tue> |
 | comment lines                       |                  | <2017-09-17 Sun> |
 | multi line comment block            |                  | <2017-09-17 Sun> |
 | simple lists                        |                  | <2013-02-26 Tue> |
