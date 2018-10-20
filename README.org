@@ -16,7 +16,7 @@ Use {{{kbd(C-c a a)}}} to launch the agenda.
 
 | *Feature*                           | *failed*         | *worked*         |
 |-------------------------------------+------------------+------------------|
-| #+HTML: <kbd>Win</kbd>+<kbd>.</kbd> |                  | <2013-02-26 Tue> |
+| @@html:<kbd>@@Win@@html:</kbd>@@+@@html:<kbd>@@Ctrl@@html:</kbd>@@+@@html:<kbd>@@0@@html:</kbd>@@  |                  | <2013-02-26 Tue> |
 | @@html:<kbd>@@Win@@html:</kbd>@@             |                  | <2017-09-17 Sun> |
 | multi line comment block            |                  | <2017-09-17 Sun> |
 | simple lists                        |                  | <2013-02-26 Tue> |
